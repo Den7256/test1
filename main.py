@@ -3,6 +3,7 @@ import random
 import time
 
 import arcade
+a = 'TEST'
 
 SCREEN_TITLE = 'Работа с анимацией'
 SCREEN_WIDTH = 600
