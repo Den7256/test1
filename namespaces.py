@@ -6,7 +6,7 @@ def square(x):
     return d
 #тЕСТ
 q = 10
-a = 5
+a = 20
 b = square(2)
 print(a)
 print(b)
