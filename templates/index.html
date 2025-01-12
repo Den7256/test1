@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<header>
+    <h1>{{ title }}</h1>
+    <h6>{{ text }}</h6>
+    <p>wertyuidfghjk</p>
+    <p></p>
+    <a href="#">ссылка на статью</a>
+    <img src="">
+</header>
+<body>
+{% for i in lists %}
+    <p>{{ i }}</p>
+{% endfor %}
+
+{% if len_list < 2 %}
+    <p>ok</p>
+{% else %}
+    <p>-</p>
+{% endif %}
+
+</body>
+<footer></footer>
+</html>
